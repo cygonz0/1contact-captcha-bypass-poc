@@ -53,7 +53,7 @@ function generate(){
 	var jsess = '<?php echo $item; ?>';
 	var usertype = "1";
 	var employeeno = $("input[name=employeeno]").val();
-	md5Pass = md5Pass = hex_md5($("input[name=employeeno]").val()+$("input[name=aaa]").val());
+	md5Pass = hex_md5($("input[name=employeeno]").val()+$("input[name=aaa]").val());
 	var userinfo = usertype+"a"+mobilecode+"a"+employeeno+"a"+md5Pass;
 	// debug check password
 	//alert("userinfo cookie value is: " + userinfo);
